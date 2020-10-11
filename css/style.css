@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.fl_left {
+  float: left;
+}
+
+.nav-bar {
+  position: fixed;
+}
+
+.header-top {
+  width: 100vw;
+  height: 100px;
+  background-color: #fff;
+  padding: 0 5%;
+}
+
+.logo {
+  width: 120px;
+  height: 100px;
+}
+
+.logo img {
+  width: 100%;
+  height: 70%;
+  margin-top: 10%;
+}
+
+.header-bottom {
+  width: 100vw;
+  height: 50px;
+  background-color: #00ACBB;
+  padding: 0 5%;
+  border-bottom: 5px solid #008AA0;
+}
+
+.menu {
+  width: 80%;
+  height: 100%;
+  float: left;
+}
+
+.menu li {
+  display: inline-block;
+  list-style: none;
+  line-height: 50px;
+  padding: 0 3%;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.menu li:hover {
+  background-color: #7BC0D3;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.search {
+  width: 20%;
+  height: 100%;
+  float: left;
+  margin-top: 10px;
+}
+
+#search_input {
+  height: 25px;
+  padding: 2% 3%;
+  font-size: 14px;
+}
+
+#search_btn {
+  height: 25px;
+}
+
+/* jumbotron */
+.jumbotron {
+  width: 100vw;
+  height: 100vh;
+  background-color: /* #194a59 #13414f */ #0b2e38;
+  padding: 2% 10%;
+}
+
+.jumbo-content {
+  width: 100%;
+  height: 70%;
+  margin-top: 15%;
+}
+
+.box-carousel {
+  width: 60%;
+  height: 100%;
+  position: relative;
+}
+
+.op {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #0b2e38;
+  opacity: 0.8;
+  overflow: hidden;
+  border-radius: 1%;
+}
+
+.photo-carousel {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.photo-carousel.active {
+  display: block;
+  margin-left: -650px;
+}
+
+.photo-carousel.first {
+  display: block;
+}
+
+.title-carousel {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px #000;
+  padding: 2%;
+  border-radius: 5px;
+  background-color: #000;
+  opacity: 0.7;
+}
+
+.title-carousel.first {
+  font-size: 40px;
+}
+
+.box-description {
+  width: 40%;
+  height: 100%;
+  padding: 5% 5%;
+  overflow: hidden;
+}
+
+.description {
+  width: 300px;
+  height: 200px;
+  font-size: 20px;
+  line-height: 30px;
+  display: none;
+  color: #fff;
+  margin-top: -240px;
+}
+
+.d-active {
+  display: block;
+}
+
+.description.first {
+  margin-top: 0;
+}
